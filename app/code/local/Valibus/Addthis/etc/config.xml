@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Valibus_Addthis>
+            <version>0.0.1</version>
+        </Valibus_Addthis>
+    </modules>
+    <global>
+        <helpers>
+            <valibus_addthis>
+                <class>Valibus_Addthis_Helper</class>
+            </valibus_addthis>
+        </helpers>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <valibus_addthis>
+                    <file>valibus/addthis.xml</file>
+                </valibus_addthis>
+            </updates>
+        </layout>
+    </frontend>
+    <adminhtml>
+        <translate>
+            <modules>
+                <Valibus_Addthis>
+                    <files>
+                        <default>Valibus_Addthis.csv</default>
+                    </files>
+                </Valibus_Addthis>
+            </modules>
+        </translate>
+    </adminhtml>
+</config>
